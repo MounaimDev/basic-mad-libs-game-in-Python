@@ -1,0 +1,18 @@
+story = "Once upon a time, there was a(n) {adjective} {noun} who lived in a(n) {adjective} {noun}. They enjoyed {verb}ing and {verb}ing every day. One day, they met a(n) {adjective} {noun} who wanted to {verb} with them. They were so {adjective} that they decided to {verb} together forever."
+
+def play_madlibs():
+    adjective1 = input("Enter an adjective: ")
+    noun1 = input("Enter a noun: ")
+    adjective2 = input("Enter an adjective: ")
+    noun2 = input("Enter a noun: ")
+    verb1 = input("Enter a verb: ")
+    verb2 = input("Enter a verb: ")
+    adjective3 = input("Enter an adjective: ")
+    noun3 = input("Enter a noun: ")
+    verb3 = input("Enter a verb: ")
+    adjective4 = input("Enter an adjective: ")
+    verb4 = input("Enter a verb: ")
+
+    print(story.format(adjective=adjective1, noun=noun1, verb=verb1, adjective2=adjective2, noun2=noun2, verb2=verb2, adjective3=adjective3, noun3=noun3, verb3=verb3, adjective4=adjective4, verb4=verb4))
+
+play_madlibs()
